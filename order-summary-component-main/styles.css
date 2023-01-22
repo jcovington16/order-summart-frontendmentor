@@ -34,4 +34,13 @@ body {
     box-shadow: 0 12px 25px 0 hsla(245,75%, 52%, .11);
     overflow: hidden;
     background-color: #ffff;
+    max-width: 27.53rem;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.div_img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
