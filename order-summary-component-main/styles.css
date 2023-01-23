@@ -39,8 +39,26 @@ body {
     margin-right: 24px;
 }
 
-.div_img {
+.order_img {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+.order_body {
+    text-align: center;
+}
+
+.order_body h1 {
+    font-size: 24px;
+    font-weight: 900;
+    padding: 22px 0 13px 0;
+    color: var(--Dark-blue);
+}
+
+.order_body p {
+    color: var(--Desaturated-blue);
+    line-height: 25px;
+    padding: 0 33px 22px 33px;
+    font-size: 15px;
 }
