@@ -62,3 +62,13 @@ body {
     padding: 0 33px 22px 33px;
     font-size: 15px;
 }
+
+.plan_container {
+    background: var(--Very-pale-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 24px 24px 24px;
+    padding: 1em;
+    border-radius: 10px;
+}
