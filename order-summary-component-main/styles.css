@@ -72,3 +72,35 @@ body {
     padding: 1em;
     border-radius: 10px;
 }
+
+.plan_left {
+    display: flex;
+}
+
+.plan_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1.2em;
+    gap: .2em;
+    text-align: left;
+    font-size: .7rem;
+}
+
+.plan_details h2 {
+    color: var(--Desaturated-blue);
+    font-size: .9rem;
+}
+
+.plan_details p {
+    color: var(--Desaturated-blue);
+    font-size: .8rem;
+}
+
+.plan_right a {
+    color: var(--Bright-blue);
+    font-weight: 700;
+    font-size: .8rem;
+    opacity: 1;
+    transition: all .2s ease;
+}
