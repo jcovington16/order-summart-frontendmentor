@@ -104,3 +104,20 @@ body {
     opacity: 1;
     transition: all .2s ease;
 }
+
+.plan_right a:hover {
+    opacity: .8;
+}
+
+.plan_right a:focus {
+    outline: 3px dotted var(--Desaturated-blue);
+}
+
+.plan_right a:focus:not(:focus-visible) {
+    outline: none;
+}
+
+.plan_right a:focus-visible {
+    outline: 3px dotted var(--Desaturated-blue);
+}
+
